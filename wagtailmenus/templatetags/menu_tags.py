@@ -274,7 +274,7 @@ def flat_menu(
 def sub_menu(
     context, menuitem_or_page, stop_at_this_level=None,
     allow_repeating_parents=None, apply_active_classes=None,
-    template=app_settings.DEFAULT_CHILDREN_MENU_TEMPLATE
+    template=app_settings.DEFAULT_SUB_MENU_TEMPLATE
 ):
     """
     Retrieve the children pages for the `menuitem_or_page` provided, turn them
